@@ -30,6 +30,6 @@ export default [
     blueExpress: true,
     coupon: true,
     wireTransfer: true,
-    additionalCharges: "el producto siempre debe pasar por el taller de Kokoro para su revisión. En caso que no esté limpio, el costo de la tintorería se descuenta del pago al vendedor.",
+    additionalCharges: "El producto siempre debe pasar por el taller de Kokoro para su revisión. En caso que no esté limpio, el costo de la tintorería se descuenta del pago al vendedor.",
   },
 ];
