@@ -2,13 +2,13 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #1D2244;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
-    --foreground: #ededed;
+    --foreground: #1D2244;
   }
 }
 
@@ -16,4 +16,27 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.custom-infinity-stroke {
+  /* La barra visible tendrá un segmento de 150px de largo */
+  /* El espacio restante será de 600px (150 + 600 = 750) */
+  stroke-dasharray: 150 600;
+
+  /* Animación: se moverá a lo largo del path */
+  animation: infinity-dash 2s linear infinite;
+}
+
+@keyframes infinity-dash {
+
+  /* Empieza con la barra desplazada (offset total) */
+  from {
+    stroke-dashoffset: 750;
+  }
+
+  /* Termina con la barra completamente desplazada */
+  to {
+    stroke-dashoffset: -150;
+  }
 }
