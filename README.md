@@ -32,8 +32,8 @@
 *   La flexibilidad para crear componentes reutilizables como el `Loading` y el sistema de acordeón para las FAQs.
 
 **Mejoraría:**
-*   **Componentes:** Implementaría componentes reutilizables para la lista de marcas y las FAQs.
-*   **Manejo de Errores:** Implementaría un `error.tsx` global de Next.js para capturar errores no controlados
+*   **Componentes:** Implementaría componentes reutilizables para las tarjeta de marca y las FAQs, en la carpeta "components".
+*   **Manejo de Errores:** Implementaría un `error.tsx` global de Next.js para capturar errores no controlados.
 
 ### ¿Qué harías distinto para escalar mejor?
 
