@@ -1,0 +1,39 @@
+/* Error Alert Container */
+.errorAlert {
+    background-color: #fef2f2;
+    border-left: 4px solid #ef4444;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.errorContent {
+    display: flex;
+    align-items: center;
+}
+
+.errorIconWrapper {
+    flex-shrink: 0;
+}
+
+.errorIcon {
+    height: 1.5rem;
+    width: 1.5rem;
+    color: #ef4444;
+}
+
+.errorTextWrapper {
+    margin-left: 0.75rem;
+}
+
+.errorTitle {
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #991b1b;
+}
+
+.errorMessage {
+    color: #b91c1c;
+    margin-top: 0.25rem;
+}
